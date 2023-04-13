@@ -1,9 +1,16 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: url('Seven Segment.ttf');
+    src: url('Seven Segment.ttf') format('truetype');
+  }
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
     background-color: rgb(248, 238, 238);
+    font-family: "Fira Sans";
 }
 
 .frame {
@@ -38,6 +45,16 @@ body {
     width: 360px;
     background-color: rgb(203, 203, 203);
     border-radius: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-weight: bolder;
+}
+
+.display .text {
+    margin: 8px;
+    font-size: 50px;
+    letter-spacing: 3px;
 }
 
 .buttons {
@@ -53,8 +70,8 @@ button {
     width: 80px;
     margin: 5px;
     border-radius: 20px;
-    font-size: large;
-    font-weight: bolder;
+    font-size: 40px;
+    font-family: "Fira Sans";
 }
 
 
