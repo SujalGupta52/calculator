@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+    background-color: rgb(248, 238, 238);
 }
 
 .frame {
@@ -48,11 +49,14 @@ body {
 }
 
 button {
-    height: 80px;
+    height: 70px;
     width: 80px;
     margin: 5px;
     border-radius: 20px;
+    font-size: large;
+    font-weight: bolder;
 }
+
 
 .utility {
     background-color: rgb(255, 111, 111);
